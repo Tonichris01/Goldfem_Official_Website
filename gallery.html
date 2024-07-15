@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoldFem Classic: Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Favicon links -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/logo.png">
+    <link rel="icon" type="image/svg+xml" href="img/logo.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+           <div class="navbar-header">
+             <a class="logo" href="index.html" target="newwindow">
+              <img src="img/logo.png" alt="Companies logo" id="goldfem_logo"> 
+              <p>GOLDFEM CLASSIC INTL. LIMITED</p></a>
+           </div>  <!-- .navbar-header -->
+            <!-- hamburger menu -->
+            <div class="hamburger-menu">☰</div>
+            <!-- <div class="link"> -->
+              <ul class="nav-links">
+                <li><a href="index.html#homr">Home</a></li>
+                <hr>
+                <li><a href="index.html#about">About</a></li>
+                <hr>
+                <li><a href="index.html#courses">Courses</a></li>
+                <hr>
+                <li><a href="gallery.html">Gallery</a></li>
+                <hr>
+                <div><li class="nav-btn"><a href="index.html#contact" id="meet-me-btn"> Contact Us</a></li></div>
+              </ul>              
+            <!-- </div> -->
+        </nav>
+        <div class="gallery-section" id="gallery">
+
+        </div>
+    </header>
+    <main>
+      <div class="gallery-container">
+        <h1>Photo and Video Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="gal_img/img_1.jpg" alt="Photo 1" onclick="openFullscreen(this)">
+                <div class="caption">Photo 1 title</div>
+              </div>
+              <div class="gallery-item">
+                <img src="gal_img/img_2.jpg" alt="Photo 2" onclick="openFullscreen(this)">
+                <div class="caption">Photo 2 title</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photo3.jpg" alt="Photo 3" onclick="openFullscreen(this)">
+                <div class="caption">Photo 3 title</div>
+              </div>
+            <div class="gallery-item">
+                <video controls>
+                    <source src="gal_video/vid_1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="caption">Video 1 title</div>
+              </div>
+            <div class="gallery-item">
+                <video controls>
+                    <source src="gal_video/vid_2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="caption">Video 2 title</div>
+              </div>
+            <div class="gallery-item">
+                <video controls>
+                    <source src="gal_video/vid_3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="caption">Video 3 title</div>
+              </div>
+            <div class="gallery-item">
+                <video controls>
+                    <source src="gal_video/vid_4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="caption">Video 4 title</div>
+              </div>
+            <div class="gallery-item">
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="caption">Videp 5 title</div>
+              </div>
+        </div>
+    </div>
+    </main>
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-cta">
+          <div class="cta-row">                  
+            <div class="single-cta">
+              <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                    <span>ADJACENT NNPC(RED ROOF) ALONG POLY ROAD, OKE UREJE, ADO EKITI</span>
+                </div>
+            </div>
+            <div class="single-cta">
+              <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                    <span>08065222015,</span>
+                    <span>08060893716</span>
+                </div>
+            </div>
+            <div class="single-cta">
+              <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>goldfem23@gmail.com</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="cta-row">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Useful Links</h3>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About us</a></li>                                
+                  <li><a href="#courses">Schools</a></li>
+                  <li><a href="gallery.html">gallery</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="footer-widget-heading">
+                <h3>Follow us</h3>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+              </div>                                
+            </div>     
+         </div>
+        </div>
+      </div>   
+      <div class="copyright-text">
+        <p>Copyright &copy; 2024, All Right Reserved</p>
+      </div>
+    </footer>
+  
+    <script src="gallery.js"></script>
+</body>
+</html>
